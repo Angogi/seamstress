@@ -1,0 +1,41 @@
+.productCard{
+    position: relative;
+    height: 350px;
+    width: 250px;
+    border: 1px solid #003;
+    margin: 5px;
+    display: flex;
+    flex-direction: column;
+}
+
+.productCard .img{
+    position: relative;
+    top: 0;
+    height: 250px;
+    width: 100%;
+    background-color: #003;
+}
+
+.productCard .text{
+    position: relative;
+    height: 100px;
+    width: 100%;
+    top: 0;
+}
+
+.productCard .text h3{
+    font-size: 15px;
+    font-weight: bolder;
+}
+
+.productCard .text p{
+    font-size: medium;
+    font-weight: bolder;
+}
+
+.productCard .text .buyButton{
+    height: 5vh;
+    font-size: small;
+    font-weight: bolder;
+    color: #003;
+}
