@@ -1,5 +1,5 @@
 import React from 'react';
-import './CardHomeSection1.css';
+import './PostCard.css';
 
 
 function CardHomeSection1() {

@@ -1,11 +1,13 @@
 .productCard{
     position: relative;
     height: 350px;
-    width: 250px;
-    border: 1px solid #003;
+    min-width: 250px;
+    border: 1px solid #270f1d;
+    box-shadow: 1px 1px 5px #270f1d ;
     margin: 5px;
     display: flex;
     flex-direction: column;
+
 }
 
 .productCard .img{
@@ -14,6 +16,11 @@
     height: 250px;
     width: 100%;
     background-color: #003;
+
+    background-image: url(/images/maquina-de-coser.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-x: center;
 }
 
 .productCard .text{
